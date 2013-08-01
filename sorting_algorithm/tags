@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+KeyType	./common.h	/^typedef int KeyType;$/;"	t
+MAX_SIZE	./common.h	4;"	d
+R	./common.h	/^	RecType R[MAX_SIZE];$/;"	m	struct:Sqlist
+RecType	./common.h	/^typedef struct RecType$/;"	s
+RecType	./common.h	/^}RecType;$/;"	t	typeref:struct:RecType
+Sqlist	./common.h	/^typedef struct Sqlist$/;"	s
+Sqlist	./common.h	/^}Sqlist;$/;"	t	typeref:struct:Sqlist
+binary_insert_sorting	./insert_sorting.cpp	/^void binary_insert_sorting(Sqlist *L)$/;"	f
+bubble_sort	./bubble_sorting.cpp	/^void bubble_sort(Sqlist *L)$/;"	f
+initial	./order.cpp	/^void initial(Sqlist *L)$/;"	f
+insert_sorting	./insert_sorting.cpp	/^void insert_sorting(Sqlist *L)$/;"	f
+key	./common.h	/^	KeyType key;		$/;"	m	struct:RecType
+length	./common.h	/^	int length;		$/;"	m	struct:Sqlist
+main	./bubble_sorting.cpp	/^int main()$/;"	f
+main	./insert_sorting.cpp	/^int main()$/;"	f
+main	./quick_sorting.cpp	/^int main()$/;"	f
+main	./selection_sorting.cpp	/^int main()$/;"	f
+main	./shell_sorting.cpp	/^int main()$/;"	f
+print	./order.cpp	/^void print(Sqlist *L)$/;"	f
+quick_one_pass	./quick_sorting.cpp	/^int quick_one_pass(Sqlist *L, int low, int high)$/;"	f
+quick_sort	./quick_sorting.cpp	/^void quick_sort(Sqlist *L, int low, int high)$/;"	f
+shell_pass	./shell_sorting.cpp	/^void shell_pass(Sqlist *L, int d)$/;"	f
+shell_sort	./shell_sorting.cpp	/^void shell_sort(Sqlist *L)$/;"	f
+simple_selection_sort	./selection_sorting.cpp	/^void simple_selection_sort(Sqlist *L)$/;"	f
